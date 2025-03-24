@@ -4867,12 +4867,6 @@ body {
   font-size: 2rem;
   color: #333;
 }
-@media (max-width: 767px) {
-  .portfolio2 .portfolio-container {
-    display: block;
-    margin-right: 5%;
-  }
-}
 
 .heading {
   text-align: center;
@@ -4894,4 +4888,26 @@ body {
   bottom: 10px;
   left: 160px;
   text-align: center;
+}
+@media (max-width: 767px) {
+  .portfolio2 .portfolio-container {
+    display: block;
+    margin-right: 5%;
+  }
+  .portfolio .portfolio-layer h4 {
+    font-size: 35px;
+    color: #000000;
+    position: absolute;
+    bottom: 10px;
+    left: 60px;
+    text-align: center;
+  }
+  .portfolio .portfolio-layer h3 {
+    font-size: 35px;
+    color: #000000;
+    position: absolute;
+    bottom: 10px;
+    left: 140px;
+    text-align: center;
+  }
 }
